@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:wght@100;200;300;400&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main{
+    display: flex;
+    gap: 30px;
+width: 700px;
+}
+
+body {
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 0.7em;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    margin: 150px 350px;
+}
+
+h1{
+    padding-bottom: 25px;
+    font-family: 'Krona One', Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+
+h1 > strong {
+    color: #2ab7d7;
+}
+
+p{
+    padding-bottom: 45px;
+    font-size: 1.3em;
+}
+
+a {
+    background-color: #2ab7d7;
+    color: #000000;
+    padding: 12px 50px;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 1.2em;
+}
+
+a:first-of-type {
+    margin-right: 30px; /* ou outro valor */
+}
+
+img {
+    width: 500px;
+    height: 300px;
+}
+
+.efeito {
+    position: absolute;
+  bottom: -10px;
+  left: -150px;
+  width: 300px;
+  height: 300px;
+  background: radial-gradient(circle, #005eff74, transparent);
+  border-radius: 50%;
+  filter: blur(30px);
+}
+
+.efeito1 {
+  position: absolute;
+  top: -90px;
+  right: -90px;
+  width: 400px;
+  height: 400px;
+  background: radial-gradient(circle, #005eff9a, transparent);
+  border-radius: 50%;
+  filter: blur(50px);
+}
